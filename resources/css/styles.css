@@ -1,0 +1,67 @@
+body  
+{  
+     background-image: url(./young-saleswoman-doing-process-payment-touchscreen-pos-counting-sale-cash-register-finance-concept_310913-888.webp); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    font-family: monospace;
+}  
+.login{  
+        width: 339px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 60px;  
+        background: #ffffff;  
+        border-radius: 15px ;  
+          
+}  
+input{
+    padding: 15px;
+    border-radius: 12px;
+}
+h2{  
+    text-align: center;  
+    
+}  
+label{  
+    color: #000000ba;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 200px;  
+    border: none;  
+    border-radius: 17px;  
+  
+  
+}  
+span{  
+    color: rgb(55, 49, 49);  
+}  
+
+
+@media (max-width:567px) {
+    input{
+        padding: 15px 5px;
+    }
+    .login {
+        width: 315px;
+    }
+}
+
+
