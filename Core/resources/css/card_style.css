@@ -1,0 +1,51 @@
+.card-body{
+    min-height: 150px;
+}
+.ves{
+    visibility: hidden;
+}
+.card{
+    border: 0;
+    /* box-shadow: 0px 5px 15px; */
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+}
+.single .card{
+    border: 0;
+    /* box-shadow: 0px 5px 15px; */
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+}
+.all{
+    background: #eee;
+    padding: 30px;
+}
+ input{
+    border: 0;
+    /* box-shadow: 0px 5px 15px; */
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+    padding: 12px 10px;
+} 
+.form-select{
+    border: 0;
+    /* box-shadow: 0px 5px 15px; */
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+    padding: 12px 10px;
+}
+.form-control{
+    padding: 12px 10px;
+}
+h1{
+    font-family: monospace;
+    font-weight: 600;
+}
+.create{
+    font-family: monospace;
+}
+form{
+    width: 50%;
+}
+
+@media(max-width:767px) {
+    form{
+        width: 100%!important;
+    }
+}
